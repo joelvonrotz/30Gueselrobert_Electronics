@@ -72,7 +72,7 @@ $$
 $$
 {\theta}_2 =
   \begin{matrix}
-  \alpha + {\theta}_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\ \alpha - {\theta}_2' & \text{else} \\
+  \alpha + {\theta}_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\\\ \alpha - {\theta}_2' & \text{else} \\\\
   \end{matrix}
 $$
 
