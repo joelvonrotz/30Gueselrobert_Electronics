@@ -70,7 +70,7 @@ m=\frac{y_1}{x_1}
 $$
 
 $$
-{\theta}_2 = \left{  \begin{matrix} \alpha + {\theta}_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\ \alpha - {\theta}_2' & \text{else} \\ \end{matrix} \right}
+{\theta}_2 = \left(  \begin{matrix} \alpha + {\theta}_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\ \alpha - {\theta}_2' & \text{else} \\ \end{matrix} \right.
 $$
 
 The function $[(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)]$ checks wherever the point $P$ is one the left (on `true`) or right (on `false`) side of the line at angle $\theta_1$.
