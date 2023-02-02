@@ -61,11 +61,16 @@ Now the calculation steps depend on which side $P$ is located. The location can 
 $$
 [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)]
 $$
+
 - $P$ left of $l_1$: both the angles are added together. 
 - $P$ right of $l_1$: $\theta_2'$ is subtracted from $\alpha$
 
 $$
-m=\frac{y_1}{x_1} \qquad \theta_2=
+m=\frac{y_1}{x_1}
+$$
+
+$$
+\theta_2=
 \left\{
   \begin{matrix}
     \alpha + \theta_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\
