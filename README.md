@@ -1,2 +1,12 @@
-# 30Gueselrobert_Electronics
-This repo contains the electronics files (hardware and firmware) for the project "Güselrobert", which is a team project for developing a beach recycler.
+![](docs/banner.png)
+
+{% note %}
+
+This here is all subject to change! I've created this so it actually exists and I can start setting up all the stuff.
+
+{% endnote %}
+
+This repository contains all the electronics stuff for the recycler project "Güselrobert" (translates to *trash Robert* and is just a very dumb word joke). The following links go into the sub-directories of the project.
+
+- :robot: [Firmware](firmware/README.md)
+- :bowtie: [Hardware](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
