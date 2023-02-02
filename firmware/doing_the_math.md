@@ -51,6 +51,7 @@ $$
 To calculate $\theta_2$, two separate angles need to be calculated in between, $\alpha$ and $\theta_2'$. The following figure shows the correlations of the angles to the position of the destination $P$. $\theta_2$ needs to be calculated differently depending on the position of $P$.
 
 ![](../docs/firmware/angle_calculation_difference.png)
+
 $$
 \alpha = \arccos{\left(\frac{l_{P1}^2+l_{1}^2-l_{P}^2}{2\cdot l_{P1}\cdot l_{1}}\right)} \qquad \theta_2' = \arccos{\left(\frac{l_{P1}^2+l_{2}^2-l_{3}^2}{2\cdot l_{P1}\cdot l_{2}}\right)}
 $$
@@ -74,8 +75,6 @@ m=\frac{y_1}{x_1} \qquad \theta_2=
 $$
 
 The function $[(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)]$ checks wherever the point $P$ is one the left (on `true`) or right (on `false`) side of the line at angle $\theta_1$.
-
-That's it, that should about do it with the algorithm. It can be easily ported to embedded systems.
 
 > **Warning**
 > This is not yet complete as there are still some things missing, such as:
