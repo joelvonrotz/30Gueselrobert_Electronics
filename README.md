@@ -5,5 +5,5 @@
 
 This repository contains all the electronics stuff for the recycler project "Güselrobert" (translates to *trash Robert* and is just a very dumb word joke). The following links go into the sub-directories of the project.
 
-- :robot: [Firmware](firmware/README.md)
+- :robot: [Firmware](firmware/)
 - :bowtie: [Hardware](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
