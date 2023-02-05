@@ -1,0 +1,58 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/firmware",
+  "cmake.buildDirectory": "${workspaceFolder}/firmware/build",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "files.associations": {
+    "type_traits": "cpp"
+  },
+  
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": " NOTE ",
+      "border": "2px solid #6C8EBF",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#DAE8FC"
+    },
+    {
+      "text": " UART ",
+      "border": "2px solid #D79B00",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#FFE6CC"
+    },
+    {
+      "text": " I2C ",
+      "border": "2px solid #B85450",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#F8CECC"
+    },
+    {
+      "text": " SCARA ",
+      "border": "2px solid #82B366",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#D5E8D4"
+    },
+    {
+      "text": " MOTOR ",
+      "border": "2px solid #9673A6",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#E1D5E7"
+    }
+  ]
+}
