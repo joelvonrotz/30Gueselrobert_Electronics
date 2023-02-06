@@ -22,8 +22,7 @@ void gpio_toggle(uint pin) {
  * \c CRC16_POLYNOMIAL_MIRRORED , which is the polynomial
  * but simply mirrored (MSB -> LSB, LSB -> MSB, etc.),
  * and \c CRC16_INITIAL .
- * FIXME:
- * REVIEW:
+ * 
  * @param data Pointer referencing a data-set
  * @param length 
  * @return Returns the calculated checksum (uint16_t) 

@@ -20,6 +20,7 @@ include_directories(
 add_executable(${PROJECT_NAME}
   main.cpp
   src/digitalout.cpp
+  src/serial.cpp
   src/scara.cpp
 )
 

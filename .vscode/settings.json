@@ -28,6 +28,15 @@
       "backgroundColor": "#FFE6CC"
     },
     {
+      "text": " SERIAL ",
+      "border": "2px solid #666666",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#F5F5F5"
+    },
+    {
       "text": " I2C ",
       "border": "2px solid #B85450",
       "borderRadius": "4px",
@@ -53,6 +62,15 @@
       "color": "black",
       "isWholeLine": false,
       "backgroundColor": "#E1D5E7"
+    },
+    {
+      "text": " TODO ",
+      "border": "2px solid #D6B656",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#FFF2CC"
     }
   ]
 }
