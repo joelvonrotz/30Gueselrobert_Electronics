@@ -29,7 +29,7 @@
 		"scope": "cpp,c",
 		"prefix": "printf_log",
 		"body": [
-			"printf(\"[LOG] $0\\n\\r\");",
+			"printf(\"[LOG] $0\\r\\n\");",
 		],
 		"description": "Log output to console"
 	}

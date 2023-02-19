@@ -1,6 +1,14 @@
 ![](../docs/firmware/linear_function_at_theta_1.png)
 # Calculations of Angles to Goal Position
 
+> **Note** #todo 
+> 
+> - [ ] Think how *Position Limiting Algorithm* works
+> - [ ] Implement *Position Limiting Algorithm*
+> - [ ] What about movement itself?
+> - [ ] Think how to *Invert Angle Calculation* (so it's inverted)
+> - [ ] Implement new *Angle Calculation*
+
 The robot arm works using the principle of inverse kinematic and in a short explanation does following: get the desination coordinates and calculate the relative angles for each arm segment. Most of the formulas were taken from Alan Zucconi's blog post "[Inverse Kinematics in 2D – Part 1](https://www.alanzucconi.com/2018/05/02/ik-2d-1/)" and adjusted from two segments to three segments.
 
 The main difficulty in calculating the angles for a three segmented arm is that there are **infinite** possible solutions. This isn't good for embedded systems and therefore there are some limitations & compromises to be considered. It allows for easier calculations of the angle. For this arm, the angle $\theta_1$ of the main segment gets precalculated angles depending on the destination coordinates. This makes $\theta_1$ a constant and allows for much simpler calculations, that can be put on a microcontroller.
@@ -70,9 +78,9 @@ m=\frac{y_1}{x_1}
 $$
 
 $$
-{\theta}_2 = \left\\{
+{\theta}_2 = \left\{
   \begin{matrix}
-  \alpha + {\theta}_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\\\ \alpha - {\theta}_2' & \text{else}
+  \alpha + {\theta}_2' & [(m\geq 0) \wedge(m\cdot x_P \leq y_P)] \vee [(m\leq 0) \wedge(m\cdot x_P \geq y_P)] \\ \alpha - {\theta}_2' & \text{else}
   \end{matrix}
   \right.
 $$

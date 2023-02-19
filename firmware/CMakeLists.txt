@@ -20,8 +20,9 @@ include_directories(
 add_executable(${PROJECT_NAME}
   main.cpp
   src/digitalout.cpp
-  src/serial.cpp
+  src/robocom.cpp
   src/scara.cpp
+  src/utility.cpp
 )
 
 # enable usb output, disable uart output
@@ -37,6 +38,7 @@ target_link_libraries(${PROJECT_NAME}
   hardware_i2c
   hardware_adc
   hardware_uart
+  hardware_timer
 )
 
 pico_enable_stdio_usb(${PROJECT_NAME} 1)

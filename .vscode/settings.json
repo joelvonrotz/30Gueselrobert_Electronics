@@ -5,7 +5,10 @@
   "files.associations": {
     "type_traits": "cpp"
   },
-  
+  "editor.rulers": [
+    80
+  ],
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google }",
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
@@ -37,7 +40,16 @@
       "backgroundColor": "#F5F5F5"
     },
     {
-      "text": " I2C ",
+      "text": " TODO ",
+      "border": "2px solid #B85450",
+      "borderRadius": "4px",
+      "fontWeight": "bold",
+      "color": "black",
+      "isWholeLine": false,
+      "backgroundColor": "#F8CECC"
+    },
+    {
+      "text": " ! ",
       "border": "2px solid #B85450",
       "borderRadius": "4px",
       "fontWeight": "bold",
@@ -64,7 +76,7 @@
       "backgroundColor": "#E1D5E7"
     },
     {
-      "text": " TODO ",
+      "text": " I2C ",
       "border": "2px solid #D6B656",
       "borderRadius": "4px",
       "fontWeight": "bold",
